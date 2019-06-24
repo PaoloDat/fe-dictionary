@@ -1,0 +1,2 @@
+# fe-dicttionary
+frontend
