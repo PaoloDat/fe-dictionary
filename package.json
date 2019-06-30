@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open"
+    "start": "webpack-dev-server --mode development --open",
+    "compile:sass": "node-sass ./src/sass/main.scss ./dist/css/style.css -w"
   },
   "repository": {
     "type": "git",
