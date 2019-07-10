@@ -54,24 +54,3 @@ body {
 
 .section-output {
   margin-top: 3rem; }
-  .section-output__found-word {
-    margin-bottom: 2rem; }
-
-.list {
-  list-style: none;
-  text-align: center; }
-  .list__item {
-    display: inline-block;
-    margin-left: 3rem;
-    width: 40rem; }
-    .list__item--right {
-      text-align: right; }
-    .list__item--left {
-      text-align: left; }
-    .list__item:first-child {
-      margin: 0; }
-    .list__item__name {
-      text-decoration: none;
-      text-transform: lowercase;
-      letter-spacing: 0.1rem;
-      font-size: 1.6rem; }

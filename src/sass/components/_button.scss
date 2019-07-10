@@ -1,0 +1,33 @@
+.btn {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: $color-text-button;
+  margin-left: 2rem;
+  vertical-align: middle;
+
+  &--border {
+    &:link,
+    &:visited {
+      background-color: $color-grey-light;
+      padding: 0 1rem;
+      border-radius: 1rem;
+    }
+    &:hover,
+    &:active {
+      background-color: $color-grey-dark;
+    }
+  }
+
+  &--no-border {
+    &:link,
+    &:visited {
+      background: none;
+      border: none;
+    }
+    &:hover,
+    &:active {
+      font-weight: 700;
+      color: darken($color-text-button, 15%);
+    }
+  }
+}
